@@ -2,7 +2,7 @@ const express = require('express');
 const connectDB = require('./config/database');
 const cors = require('cors');
 const bidRoutes = require('./routes/bidRoutes');
-
+require('dotenv').config();
 const app = express();
 
 // Connect Database
